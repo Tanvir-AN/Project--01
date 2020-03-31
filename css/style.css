@@ -1,0 +1,281 @@
+/*
+====================================
+			Master styleheet
+====================================
+	Template name: Minimo
+	Author: Nayeem
+	Author: https//nayeem.com
+	Descriptions:PHD TO HTML PARACTISE
+	Version: 1.0.0
+	Tag: Blag
+*/
+/*
+====================================
+			Table of contents
+====================================
+	1 Typrography
+	2 Header
+	3 Article
+	4 Commant
+	5 Details
+	6 Sin-in
+	7 Roed
+	8 Button
+	9 Footer
+	@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,900|Ubuntu:300&display=swap');
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Playfair Display', serif;
+
+*/
+/*
+====================================
+			Typrography
+====================================
+*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,900|Ubuntu:300&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+.details{
+	display: flex;
+	justify-content: space-between;
+}
+.images{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 280px;
+}
+/*
+====================================
+			Header
+====================================
+*/
+.container{
+	width: 88%;
+	margin:0 auto;
+
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 77px;
+	
+}
+.logo{
+	width: 10%;
+}
+.logo img{
+	width: 100%;
+}
+.manu{
+	width: 70%;
+}
+.manu ul{
+	text-align: right;
+	margin: 0;
+}
+.manu ul li{
+	display: inline-block;
+}
+.manu ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 61px;
+}
+.manu ul li:last-child a{
+	padding-right: 0;
+}
+.manu ul li a:hover{
+	color: #000000;
+	transition: .3s all ease-in-out;
+}
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+	height: 600px;
+
+}
+/*
+====================================
+		Article
+====================================
+*/
+
+/*
+====================================
+		Commant
+====================================
+*/
+.article{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 98px;
+}
+.comment{
+	
+}
+.comment h3{
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	
+}
+.comment h1{
+	padding-top: 30px;
+	
+}
+.comment p{
+	padding: 35px 0 55px 0;
+}
+/*
+====================================
+			Details
+====================================
+*/
+.Details{
+	margin: 0 auto;
+}
+.images{
+	
+
+}
+.one{
+	background-image: url(../images/img01.jpg);
+}
+.two{
+	background-image: url(../images/img02.jpg);
+}
+.three{
+	background-image: url(../images/img03.jpg);
+}
+.four{
+	background-image: url(../images/img04.jpg);
+}
+.five{
+	background-image: url(../images/img05.jpg);
+}
+.six{
+	background-image: url(../images/img06.jpg);
+}
+.content{
+	
+}
+.content h3{
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	margin: 30px 0;
+	
+}
+.content h1{
+	margin-bottom: 40px;
+	
+}
+.content p{
+	
+}
+.right{
+	margin-left: 60px;
+}
+.coffee{
+	margin: 135px 0;
+}
+.girl{
+	margin-bottom: 135px;
+}
+
+/*
+====================================
+			Sin-in
+====================================
+*/
+.sin-in{
+	height: 286px;
+	background-color: #f0f0f0;
+	margin-bottom: 105px;
+	text-align: center;
+
+}
+.sin-in h1{
+	font-size: 30px;
+	padding: 70px 0 80px 0;
+}
+.sin-in h2{
+	font-size: 14px;
+	text-decoration: underline;
+
+}
+/*
+====================================
+			Roed
+====================================
+*/
+.roed{
+ 	/*margin: 105px 0 170px 0;*/
+	width: 75%;
+	margin: 0 auto;
+}
+/*
+====================================
+			Button
+====================================
+*/
+.button{
+	font-family: 'Playfair Display', serif;
+	margin: 170px 0 1370px 0;
+	text-align: center;
+
+}
+.button button{
+	background-color: #ffffff;
+}
+.button button h1{
+	font-size: 14px;
+	padding: 20px 30px;
+}
+/*
+====================================
+			Footer 
+====================================
+*/
+.footer{
+	height: 150px;
+	background-color: #f0f0f0;
+	margin-bottom: 3px;
+}
+.footer ul{
+
+}
+.footer ul li{
+	display: inline-block;
+	margin: 40px 0 40px 0
+}
+.footer ul li a{
+	text-decoration: none;
+	color: #626262;
+
+}
+.footer ul li:nth-child(1n) a{
+	margin: 0 20px 0 150px;
+}	
